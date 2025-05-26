@@ -1,0 +1,31 @@
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal__content {
+    width: 400px;
+    background-color: #fff;
+}
+
+.modal__header,
+.modal__footer {
+    padding: 12px;
+}
+
+.modal__body {
+    padding: 20px;
+    border-top: 1px solid #eee;
+}
+
+.modal__footer {
+    display: flex;
+    justify-content: space-around;
+}
