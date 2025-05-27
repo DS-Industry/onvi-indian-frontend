@@ -119,14 +119,12 @@ export default function UnauthorizedLayout({ children }: { children: React.React
                 <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-10 lg:space-y-16 lg:px-8">
                     <div className="grid grid-cols-1 gap-x-8 sm:grid-cols-3 lg:col-span-2 lg:grid-cols-2">
                         <div>
-
                             <Image
                                 src={LogoF}
                                 alt="logoF"
                                 height="120"
                                 width="190"
                             />
-
                             <p className="text-xs text-gray-500 pt-6 pl-2">&copy; All Rights Reserved. Powered by ZIXDO TECHNOLOGIES PRIVATE LIMITED</p>
                         </div>
                         <div></div>

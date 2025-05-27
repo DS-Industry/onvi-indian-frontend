@@ -1,7 +1,6 @@
 "use client";
 
-
-import MainButton from "@/components/button/index";
+import MainButton from "@/components/button/MainButton";
 import GeneralLayout from "@/layouts/GeneralLayout";
 import { useUser } from "@/context/UserProvider";
 import { useEffect, useState } from "react";

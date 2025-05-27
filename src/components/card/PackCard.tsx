@@ -1,9 +1,9 @@
-import {User} from "@/types";
-import {useState} from "react";
+import { User } from "@/types";
+import { useState } from "react";
 import api from "@/api";
 import MainButton from "@/components/button/index";
 import MainLoader from "@/components/loaders/MainLoader";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 declare global {
     interface Window {
@@ -20,7 +20,7 @@ interface IPackCard {
     user: User;
 }
 
-export default function PackCard({ id, name, sumPoint, sumMoney, description, user}: IPackCard) {
+export default function PackCard({ id, name, sumPoint, sumMoney, description, user }: IPackCard) {
     const [isLoading, setIsLoading] = useState<boolean>(false);
 
     const navigate = useRouter();
