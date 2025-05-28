@@ -36,6 +36,11 @@ jobs:
         
       - name: Build Next.js
         run: npm run build
+        env:
+          NEXT_PUBLIC_RAZORPAY_KEY_ID: rzp_live_28uKBwwEso0CLe
+          NEXT_PUBLIC_RP_KEY_SECRET: KCXlmLuXdWl4Gb8MK475F56S
+          NEXT_PUBLIC_BASE_URL_API: https://indi-landing-backend-xzzi7.ondigitalocean.app/
+          NEXT_DISABLE_ESLINT: true
           
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
