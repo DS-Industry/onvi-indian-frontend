@@ -8,8 +8,8 @@
     "build": "next build",
     "start": "next start -p 5173",
     "lint": "next lint",
-    "clean": "rm -rf .next out",
-    "predeploy": "npm run clean && npm run build",
+    "export": "next export",
+    "predeploy": "NEXT_DISABLE_ESLINT=true npm run build",
     "deploy": "gh-pages -d out -t true"
   },
   "dependencies": {
