@@ -1,6 +1,6 @@
-import Logo from "./../../assets/Logo.png";
-import ArrowBack from "../../assets/arrow_back.png";
-import LogoSmall from "../../assets/logo_small.png";
+import Logo from "@/assets/logoSmall.png";
+import ArrowBack from "@/assets/arrow_back.png";
+import LogoSmall from "@/assets/logo_small.png";
 import Image from "next/image";
 
 export default function UnAuthLayout({
