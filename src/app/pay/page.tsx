@@ -6,7 +6,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import UnAuthLayout from "@/layouts/UnAuthorized";
 import Button from "@/components/button";
 import Human from "@/assets/Saly-34.png";
-import Logo from "@/assets/logo.png";
+import Logo from "@/assets/logoSmall.png";
 import api from "@/api";
 
 declare global {
