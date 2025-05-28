@@ -9,7 +9,7 @@
     "start": "next start -p 5173",
     "lint": "next lint",
     "export": "next export",
-    "predeploy": "NEXT_DISABLE_ESLINT=true npm run build && npm run export",
+    "predeploy": "NEXT_DISABLE_ESLINT=true npm run build",
     "deploy": "gh-pages -d out"
   },
   "dependencies": {
