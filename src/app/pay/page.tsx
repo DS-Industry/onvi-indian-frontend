@@ -95,8 +95,8 @@ export default function Payment() {
     };
 
     return (
-        <UnAuthLayout>
-            <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<div>Loading...</div>}>
+            <UnAuthLayout>
                 <div className="flex items-center justify-center w-full mb-28">
                     <div className="flex flex-col bg-white sm:w-full md:w-1/3 mx-5 mt-6 space-y-4 rounded-lg p-4 shadow-lg sm:p-6 lg:p-8">
                         <div className="w-full flex justify-center items-center mt-5">
@@ -133,7 +133,7 @@ export default function Payment() {
                         </div>
                     </div>
                 </div>
-            </Suspense>
-        </UnAuthLayout>
+            </UnAuthLayout>
+        </Suspense>
     );
 }
