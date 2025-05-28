@@ -134,7 +134,7 @@ export default function UnauthorizedLayout({ children }: { children: React.React
 
                                 <ul className="mt-6 space-y-4 text-sm">
                                     <li>
-                                        <Link href="/" className="text-gray-700 transition hover:opacity-75"> Home page </Link>
+                                        <Link href="/landing" className="text-gray-700 transition hover:opacity-75"> Home page </Link>
                                     </li>
 
                                     <li>
@@ -148,15 +148,15 @@ export default function UnauthorizedLayout({ children }: { children: React.React
                                     </li>
 
                                     <li>
-                                        <a href="/term" className="text-gray-700 transition hover:opacity-75"> Terms and condition </a>
+                                        <Link href="/term" className="text-gray-700 transition hover:opacity-75"> Terms and condition </Link>
                                     </li>
 
                                     <li>
-                                        <a href="/privacy" className="text-gray-700 transition hover:opacity-75"> Privacy policy </a>
+                                        <Link href="/privacy" className="text-gray-700 transition hover:opacity-75"> Privacy policy </Link>
                                     </li>
 
                                     <li>
-                                        <a href="/refund" className="text-gray-700 transition hover:opacity-75"> Refunds and cancellation </a>
+                                        <Link href="/refund" className="text-gray-700 transition hover:opacity-75"> Refunds and cancellation </Link>
                                     </li>
                                 </ul>
                             </div>

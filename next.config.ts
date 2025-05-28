@@ -9,6 +9,7 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   basePath: '/onvi-indian-frontend',
+  assetPrefix: '/onvi-indian-frontend/',
   trailingSlash: true,
 };
 

@@ -185,7 +185,7 @@ export default function SubscriptionPage() {
                                     more attractive to our customers.
                                 </p>
                                 <p className="hidden text-gray-500 sm:mt-4 sm:block">
-                                    Read the terms of use: <a href="#/termSub" className="text-primary-500">Terms and
+                                    Read the terms of use: <a href="/termSub" className="text-primary-500">Terms and
                                         Conditions
                                         Subscription</a>
                                 </p>
