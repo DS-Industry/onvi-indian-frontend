@@ -49,11 +49,11 @@ export default {
         "spin-slow": "spin 750ms linear infinite",
       },
       backgroundImage: {
-        'banner-main': "url('/assets/banner.png')",
-        'term-main': "url('/assets/terms.jpeg')",
-        'privacy-main': "url('/assets/privacy.jpeg')",
-        'refund-main': "url('/assets/refund.jpeg')",
-        'franchise-main': "url('/assets/franchise1.jpg')"
+        'banner-main': "url('/onvi-indian-frontend/assets/banner.png')",
+        'term-main': "url('/onvi-indian-frontend/assets/terms.jpeg')",
+        'privacy-main': "url('/onvi-indian-frontend/assets/privacy.jpeg')",
+        'refund-main': "url('/onvi-indian-frontend/assets/refund.jpeg')",
+        'franchise-main': "url('/onvi-indian-frontend/assets/franchise1.jpg')"
       },
       colors: {
         background: "var(--background)",
