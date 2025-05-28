@@ -11,6 +11,7 @@ const nextConfig: NextConfig = {
   },
   basePath: '/onvi-indian-frontend',
   assetPrefix: '/onvi-indian-frontend/',
+  trailingSlash: true,
 };
 
 export default nextConfig;
