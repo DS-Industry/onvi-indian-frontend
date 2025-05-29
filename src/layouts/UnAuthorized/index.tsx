@@ -2,6 +2,7 @@ import Logo from "@/assets/logoSmall.png";
 import ArrowBack from "@/assets/arrow_back.png";
 import LogoSmall from "@/assets/logo_small.png";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function UnAuthLayout({
   children,
@@ -21,11 +22,7 @@ export default function UnAuthLayout({
           />
         </div>
         <div className="flex items-center">
-          <a
-            href="https://dsmoyka.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <Link href="/landing">
             <Image
               src={ArrowBack}
               alt="back"
@@ -33,7 +30,7 @@ export default function UnAuthLayout({
               height="48"
               width="48"
             />
-          </a>
+          </Link>
         </div>
       </nav>
       <main className="flex w-full h-full flex-col ">{children}</main>
