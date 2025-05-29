@@ -6,6 +6,7 @@ import { AxiosResponse } from "axios";
 import api from "@/api";
 import SubscriptionInfoCard from "@/components/card/SubscribtionInfoCard";
 import MainLoader from "@/components/loaders/MainLoader";
+import Link from "next/link";
 
 interface Plan {
     id: string;
@@ -185,15 +186,15 @@ export default function SubscriptionPage() {
                                     more attractive to our customers.
                                 </p>
                                 <p className="hidden text-gray-500 sm:mt-4 sm:block">
-                                    Read the terms of use: <a href="/termSub" className="text-primary-500">Terms and
+                                    Read the terms of use: <Link href="/termSub" className="text-primary-500">Terms and
                                         Conditions
-                                        Subscription</a>
+                                        Subscription</Link>
                                 </p>
                                 <p className="hidden text-gray-500 sm:mt-4 sm:block">
-                                    Read the terms of the refund and cancellation of the subscription: <a
-                                        href="#/refundSub"
+                                    Read the terms of the refund and cancellation of the subscription: <Link
+                                        href="/refundSub"
                                         className="text-primary-500">Refund
-                                        and Cancellation Subscription</a>
+                                        and Cancellation Subscription</Link>
                                 </p>
                             </div>
                         </div>
