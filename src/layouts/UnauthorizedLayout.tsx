@@ -13,7 +13,7 @@ export default function UnauthorizedLayout({ children }: { children: React.React
             section.scrollIntoView({ behavior: 'smooth' });
         } else {
             // Если элемент не найден на текущей странице, переход на другую страницу
-            window.location.href = `/?scrollTo=${sectionId}`;
+            window.location.href = `/onvi-indian-frontend/landing/?scrollTo=${sectionId}`;
         }
     }
 
@@ -30,7 +30,7 @@ export default function UnauthorizedLayout({ children }: { children: React.React
                 <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
                     <div className="flex h-16 items-center justify-between">
                         <div className="flex-1 md:flex md:items-center md:gap-2">
-                            <Link className="block text-teal-600" href="/">
+                            <Link className="block text-teal-600" href="/landing">
                                 <span className="sr-only">Home</span>
                                 <Image
                                     src={Logo}
@@ -50,14 +50,14 @@ export default function UnauthorizedLayout({ children }: { children: React.React
                                 <ul className="flex items-center gap-6 text-sm">
                                     <li>
                                         <Link className="text-gray-500 transition hover:text-gray-500/75"
-                                            href="/" onClick={(e) => { e.preventDefault(); scrollToSection('about'); }}
+                                            href="/landing" onClick={(e) => { e.preventDefault(); scrollToSection('about'); }}
                                         > About
                                         </Link>
                                     </li>
 
                                     <li>
                                         <Link className="text-gray-500 transition hover:text-gray-500/75"
-                                            href="/" onClick={(e) => { e.preventDefault(); scrollToSection('services'); }}
+                                            href="/landing" onClick={(e) => { e.preventDefault(); scrollToSection('services'); }}
                                         > Services </Link>
                                     </li>
 
