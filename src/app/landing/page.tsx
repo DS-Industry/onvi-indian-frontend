@@ -52,12 +52,12 @@ export default function Landing() {
                             </p>
 
                             <div className="mt-8 flex flex-wrap gap-4 text-center">
-                                <a
-                                    href="https://dsmoyka.com/payment"
+                                <Link
+                                    href="/pay"
                                     className="block w-full rounded bg-red-400 px-12 py-3 text-sm font-medium text-white-500 shadow hover:bg-white-500/95 focus:outline-none focus:ring active:bg-white-500 sm:w-auto"
                                 >
                                     Pay Online
-                                </a>
+                                </Link>
 
                                 <Link
                                     href="/" onClick={(e) => { e.preventDefault(); scrollToSection('services'); }}

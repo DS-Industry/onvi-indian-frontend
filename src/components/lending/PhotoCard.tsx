@@ -23,10 +23,12 @@ export default function PhotoCard({
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       style={{
-        padding: "0.5rem",
-        paddingBottom: "4rem",
         ...(pe ? { paddingRight: pe } : {}),
-        borderRadius: 12,
+      }}
+      styles={{
+        body: {
+            padding: 0
+        }
       }}
       cover={
         <Image
@@ -36,7 +38,7 @@ export default function PhotoCard({
             height: "14rem", // ~ h-56
             width: "100%",
             objectFit: "cover",
-            borderRadius: 12,
+            borderRadius: "0.5rem", // ~ rounded-lg
             transition: "filter 0.3s ease",
             filter: isHovered ? "grayscale(50%)" : "none",
             boxShadow: "0 4px 20px rgba(0, 0, 0, 0.1)", // shadow-xl
@@ -44,20 +46,20 @@ export default function PhotoCard({
         />
       }
     >
-      <Title level={5} style={{ marginBottom: 0 }}>
+      {title && <Title level={5} style={{ marginBottom: 0, padding: "1rem" }}>
         {title}
-      </Title>
-      <Paragraph
+      </Title>}
+      {text && <Paragraph
         ellipsis={{ rows: 3 }}
         style={{
-          marginTop: 8,
           fontSize: "0.875rem",
           lineHeight: 1.625,
           color: "#6b7280", // Tailwind's gray-500
+          padding: "0 1rem"
         }}
       >
         {text}
-      </Paragraph>
+      </Paragraph>}
     </Card>
   );
 }
