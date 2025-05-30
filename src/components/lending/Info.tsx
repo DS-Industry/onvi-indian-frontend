@@ -19,7 +19,7 @@ export default function Info({
             </Title>
             <Paragraph
               style={{ color: "#6b7280", marginTop: "1rem" }}
-              className="sm:block hidden"
+              className="block"
             >
               {text}
             </Paragraph>

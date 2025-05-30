@@ -67,7 +67,7 @@ export default function GeneralLayout({
               </div>
           )}
           <a
-            href="/"
+            href="/onvi-indian-frontend/landing"
             target="_blank"
             rel="noopener noreferrer"
           >

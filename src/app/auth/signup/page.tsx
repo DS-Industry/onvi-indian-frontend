@@ -145,7 +145,7 @@ export default function RegistrationPage() {
 
   return (
     <AuthLayout>
-      <div className=" flex flex-col items-center w-full gap-3">
+      <div className="flex flex-col items-center w-full gap-3 mt-5">
         {/*         <AuthInput
           type={"text"}
           placeholder={"Name"}

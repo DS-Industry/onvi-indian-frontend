@@ -50,7 +50,6 @@ export default function PhotoCard({
         {title}
       </Title>}
       {text && <Paragraph
-        ellipsis={{ rows: 3 }}
         style={{
           fontSize: "0.875rem",
           lineHeight: 1.625,

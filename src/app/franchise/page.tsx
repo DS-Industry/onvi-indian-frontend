@@ -49,7 +49,7 @@ export default function FranchisePage() {
                             Get in touch
                         </h2>
                         Would you like to learn more about the DS Moyka & Zixdo franchise? Our sales team is available to answer all your questions and provide you with detailed information about our company and its benefits. We are always happy to help new partners build their business and grow their success. Contact us today to learn more!
-                        <p className="hidden text-gray-700 text-4xl sm:mt-8 sm:block">
+                        <p className="text-gray-700 text-4xl sm:mt-8 block">
                            atul@zixdo.com
                         </p>
                     </div>

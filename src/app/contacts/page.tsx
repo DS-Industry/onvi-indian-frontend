@@ -32,7 +32,7 @@ export default function ContactsPage() {
                         <h4 className="text-4xl font-bold text-gray-900 md:text-3xl">
                             Contact Information
                         </h4>
-                        <p className="hidden text-gray-500 sm:mt-4 sm:block">
+                        <p className="text-gray-500 sm:mt-4 block">
                             For any questions, you can always contact us using the following means:
                         </p>
                         <ul className="list-disc pl-4">
