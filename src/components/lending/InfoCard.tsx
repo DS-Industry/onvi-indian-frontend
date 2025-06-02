@@ -27,7 +27,7 @@ export default function InfoCard({
         <Title level={5} style={{ margin: 0 }}>
           {title}
         </Title>
-        <Paragraph style={{ margin: "4px 0 0", color: "#d1d5db", fontSize: "0.875rem" }}>
+        <Paragraph style={{ margin: "4px 0 0", color: "gray", fontSize: "0.875rem" }}>
           {text}
         </Paragraph>
       </div>

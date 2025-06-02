@@ -33,6 +33,7 @@ export default function PhotoCard({
       cover={
         <Image
           src={photo}
+          loading={"eager"}
           alt={title || "Photo"}
           style={{
             height: "14rem", // ~ h-56
