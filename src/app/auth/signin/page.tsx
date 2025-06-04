@@ -3,7 +3,7 @@
 import AuthInput from "@/components/input/AuthInput";
 import AuthLayout from "@/layouts/AuthLayout";
 import Lock from "@/assets/Lock_icon.svg";
-import Mail from "@/assets/Message_icon.svg";
+// import Mail from "@/assets/Message_icon.svg";
 import MainButton from "@/components/button/index";
 import { useEffect, useState } from "react";
 import { useUser } from "@/context/UserProvider";
@@ -193,7 +193,7 @@ export default function LoginPage() {
         <AuthInput
           type={"phone"}
           placeholder={"phone"}
-          icon={Mail}
+        //   icon={Mail}
           handleChange={handleChange}
           required={false}
           name={"phone"}
@@ -228,7 +228,7 @@ export default function LoginPage() {
           handleClick={handleClick}
           value={""}
           additionalStyles={
-            " bg-primary-500 text-white-500 text-base md:w-1/2 sm:w-1/2 xs:w-full mt-[20px] flex items-center justify-center"
+            " bg-primary-500 text-white-500 text-base md:w-1/3 xs:w-full mt-[20px] flex items-center justify-center"
           }
         />
       </div>

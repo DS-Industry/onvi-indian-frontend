@@ -5,16 +5,13 @@
 :root {
   --background: #ffffff; /* default to white */
   --foreground: #171717; /* default to dark text */
+    box-sizing: border-box;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
-}
-
-:root {
-  box-sizing: border-box;
 }
 
 .font-inter-light {
@@ -30,4 +27,3 @@ body {
 .font-inter-semibold {
   font-family: "Inter Semibold";
 }
-
