@@ -27,3 +27,12 @@ body {
 .font-inter-semibold {
   font-family: "Inter Semibold";
 }
+
+.ant-typography,
+.ant-btn,
+.ant-input,
+.ant-form-item-label,
+.ant-select,
+.ant-picker {
+  font-family: Arial, Helvetica, sans-serif !important;
+}

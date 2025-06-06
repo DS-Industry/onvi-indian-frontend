@@ -16,7 +16,6 @@ export default function Card({ sum, prevOrder, handleClick }: ICard) {
     return (
         <AntCard
             onClick={() => handleClick({ ...prevOrder, sum })}
-            hoverable
             styles={{
                 body: {
                     padding: "6px 12px",

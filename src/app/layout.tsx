@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import '@/styles/fonts.scss';
 import "./globals.css";
 import { UserProvider } from "@/context/UserProvider";
+import { ConfigProvider } from "antd";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -29,9 +30,17 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <UserProvider>
-          {children}
-        </UserProvider>
+        <ConfigProvider
+          theme={{
+            token: {
+              fontFamily: "Arial, Helvetica, sans-serif", // <-- Global override
+            },
+          }}
+        >
+          <UserProvider>
+            {children}
+          </UserProvider>
+        </ConfigProvider>
       </body>
     </html>
   );
